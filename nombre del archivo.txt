@@ -1,1 +1,9 @@
-hola
+Mono----->  Diagrama de emplazamiento
+
+Nico----->  Diagrama de casos de uso
+
+Pancho--->  Diagrama de secuencia
+
+Jotape--->  Modelo entidad relación (mer)
+
+Milic---->  Diagrama de clases
