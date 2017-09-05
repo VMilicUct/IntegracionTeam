@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang=es>
+<head>
+<title>Primer Formulario</title>
+<meta charset="UTF-8">
+</head>
+<body>
+	<form action="ingresa.php" method="post" novalidate="novalidate">
+	<fieldset>
+	
+	<label for="nom">Usuario</label> <input type="text" id="nom" name="nom" placeholder="Ingrese Usuario" required="required">* <br>
+
+	<label for="pass">Contraseña</label><input type="password" name="pass" placeholder="Ingrese Contraseña" required="required" >* <br>
+	Email			<input type="email" name="ema" id="ema" required="required">* <br>
+		 
+	</select>
+	
+	<br>
+	
+	<br>
+	Los campos con * son obligatorios
+	<br>
+	<br>
+	<h3>Tu opinion nos importa!!</h3>
+	¿Como evaluarias el contenido de nuestra pagina? <br> <input type="radio" name="cont" id="bien" value="Excelente"> Excelente! <br>
+	<input type="radio" name="cont" id="masomenos" value="Podria mejorar"> Podria mejorar <br>
+	<input type="radio" name="cont" id="mal" value="Les queda bastante trabajo por hacer"> Les queda bastante trabajo por hacer <br>
+	<br>
+	Sugerencias 	<input type="text" name="sug" id="sug"> <br>
+	<input type="submit">
+	</fieldset>
+
+
+
+</form>
+</body>
+</html>
