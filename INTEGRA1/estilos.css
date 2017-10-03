@@ -1,0 +1,8 @@
+body {
+	background-color: #FE9A2E;
+	background-image: url("menufondo.jpg");
+	text-align: center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
